@@ -1,0 +1,34 @@
+{
+  "name": "create-node-app",
+  "description": "Create Node apps with no build configuration.",
+  "version": "1.0.0",
+  "license": "ISC",
+  "bin": {
+		"create-node-app": "index.js",
+		"cna": "index.js"
+	},
+  "repository": "https://github.com/tawseefnabi/create-node-app",
+  "author": {
+    "name": "Tawseef nabi",
+    "email": "tawseefnabi9@gmail.com",
+    "webite": "https://twitter.com/NabiTowseef"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "create-node-app",
+    "Create Node.js APP",
+    "Build Node App",
+    "node app",
+    "nodejs",
+    "Tawseef",
+    "Tawseef nabi"
+  ],
+  "scripts": {
+    "format": "prettier --write \"./**/*.{js,json}\""
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
+}
