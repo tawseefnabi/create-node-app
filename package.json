@@ -4,9 +4,9 @@
   "version": "1.0.0",
   "license": "ISC",
   "bin": {
-		"create-node-app": "index.js",
-		"cna": "index.js"
-	},
+    "create-node-app": "index.js",
+    "cna": "index.js"
+  },
   "repository": "https://github.com/tawseefnabi/create-node-app",
   "author": {
     "name": "Tawseef nabi",
@@ -27,6 +27,9 @@
   ],
   "scripts": {
     "format": "prettier --write \"./**/*.{js,json}\""
+  },
+  "dependencies": {
+    "cli-welcome": "^2.2.2"
   },
   "devDependencies": {
     "prettier": "^2.3.2"

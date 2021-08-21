@@ -1,6 +1,8 @@
 #!/usr/bin/env node
-
-( async () => {
-  console.log('start');
-})()
-
+const init = require('./utils/init');
+(async () => {
+  console.log("start");
+  let clear = true
+  init(clear)
+  console.log("screen cleaned");
+})();
