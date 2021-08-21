@@ -1,7 +1,13 @@
 const welcome = require('cli-welcome')
-
-module.exports = ({clear=true})=>{
+const pkg = require('./../package.json')
+module.exports = ({ clear = true })=>{
   welcome({
-    title: "node-cli"
+    title: "create-node-cli",
+    description: pkg.description,
+    version: pkg.version,
+    bgColor: '#6cc24a',
+		color: '#000000',
+    bold: true,
+    clear
   })
 }
